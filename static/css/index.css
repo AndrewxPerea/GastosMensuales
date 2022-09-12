@@ -1,0 +1,128 @@
+.main-section{
+    margin:0 auto;
+    margin-top:10%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #eaf7d5;
+    opacity: .85;
+    padding: 0 10px;
+    box-shadow: 0px 0px 20px #848484;
+}
+
+
+
+.form-group input{
+    height: 35px;
+    font-size: 18px;
+    border:100px    ;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+
+button{
+    inline-size: 60%;
+    margin: 5px 0 25px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.form-register, form-calculo {
+    background-color: #fbfff5;
+    opacity: .85;
+    padding: 0 10px;
+    box-shadow: 0px 0px 20px #848484;
+}
+
+.form-register, form-calculo h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+
+.controls {
+    background-color: #f8ffee;
+    opacity: .85;
+    padding: 0 10px;
+    box-shadow: 0px 0px 20px #848484;
+    margin-bottom: 9px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.form-register a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.form-calculo a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background:  #029928;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.form-calculo .botons {
+    width: 100%;
+    background:  #029928;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #043b06;
+    padding: 50px;
+  }
